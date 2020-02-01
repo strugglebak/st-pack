@@ -1,0 +1,11 @@
+{
+  "name": "st-pack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/strugglebak/st-pack.git",
+  "author": "moss <dxp157@sohu.com>",
+  "license": "MIT",
+  "bin": {
+    "st-pack": "./bin/st-pack.js"
+  }
+}
