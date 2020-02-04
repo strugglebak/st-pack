@@ -7,5 +7,8 @@ const config = require(path.resolve('webpack.config.js'))
 const Complier = require('../lib/compiler.js')
 const complier = new Complier(config)
 
+// 在 run 之前发布一个 entryOptions 的钩子
+complier.hooks.entryOptions.call()
+
 // 调用 compiler 的 run 方法执行代码
 complier.run()
